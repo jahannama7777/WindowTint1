@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jahan_nama - window tinting</title>
+    <link href="spotless.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/777863549e.js" crossorgin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+    <div id="listbox">
+        <header>
+            <div class="sub">
+                <nav class="header">
+                    <ul>
+                        <li class="libar">
+                            <div id="bar-a" class="abar">
+                                <a href="javascript:void(0);" id="bar-real" title="منوی کشویی">
+
+                                    <i class="fa-solid fa-bars" id="bar-asidehome"></i>
+
+                                </a>
+                            </div>
+                            <div class="dropbar">
+                                <a href="C:\Users\jaber\Desktop\spotless\sign-in.html" id="sign-in">ورود</a>
+                                <a href="C:\Users\jaber\Desktop\spotless\sign-up.html" id="sign-up">ثبت نام</a>
+                                <a href="جایزه.html" id="giving-price">دریافت جایزه</a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="spotless.html" class="abar" title="خانه">
+
+                                <i class="fa-solid fa-house"></i>
+                            </a>
+                        </li>
+                        <li class="libar">
+                            <a href="javascript:void(0)" class="abar">برگزیده ها</a>
+                            <div class="dropbar">
+                                <a href="picture.html" target="_blank">عکس</a>
+                                <a href="برگزیده فیلم.html" target="_blank">فیلم</a>
+                            </div>
+                        </li>
+                        <li class="libar">
+                            <a href="services.html" class="abar">ارائه خدمات </a>
+                        </li>
+                        <li><a href="#" class="abar">فروشگاه</a></li>
+                        <li>
+                            <a href="#aboutus" class="abar">ارتباط با ما</a>
+                        </li>
+                        <li><a href="درباره ما.html" class="abar">درباره ما</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="search-input">
+                <div>
+                    <img src="pic/arm2.png" alt="jahannama" id="jahannama_arm">
+                </div>
+                <form name="submitForm" class="form-signing" action="#" onsubmit="return validateForm()" method="post">
+                    <input id="inputsearch" type="search" name="search" placeholder="  write here..." />
+                    <input id="searchbutton" type="submit" value="جستجو" onclick="submitWord()" />
+                    <script>
+                        function submitWord() {
+                            let x = document.forms["submitForm"]["search"].value;
+                            if (x == "") {
+                                alert("لطفا چیزی بنویسید!");
+                                return false;
+                            }
+                        }
+                    </script>
+                    <button id="sign-head" onclick="sign_in()">
+                        <a href="sign-in.html">
+                            ورود / ثبت نام
+                        </a>
+                    </button>
+
+                </form>
+            </div>
+        </header>
+    </div>
+    <!--till here div is OK-->
+    <article>
+        <div class="wide-pic">
+            <script>
+                var now = new Date();
+                var min = now.getMinutes();
+                if ((min % 2) == 0)
+                    document.write("<img src='pic/jahannamaposter2.jpg' alt='جهان نما' class='jposter'>");
+                else
+                    document.write("<img src='pic/baner-store.jpg' alt='jahannama' class='jposter'>");
+
+            </script>
+        </div>
+        <!--this is a poster of jahannama-->
+        <h1 id="my-slogen"><b>برچسب و شیشه دودی جهان نما برای هر نوع سبک زندگی</b></h1>
+        <div class="historyoftint">
+            <h2 class="h2">تاریخچه پیدایش برچسب شیشه دودی:</h2>
+            <p>
+                بیشتر اتومبیل ها امروزه دارای شیشه های دودی می باشند. اگر شما یک عشق ماشین باشید ، فکر میکنید که شیشه
+                دودی قدمتی بسیار طولانی داره
+                ولی اگر نیستید ، شاید فکر کنید که یک صنعت با تکنولوژی نوپا ست.
+                قبل از اینکه شیشه دودی یک حفاظ برای شما در مقابل خطرات نور خورشید باشه ، تاریخشناسان ریشه های اولیه آن
+                را پیدا کردند.
+                اگر مشتاق به فهمیدن اون هستید ، این متنو بخونید:<br>
+                شاید فکر کنی شیشه دودی یک قدمت 30 تا 50 ساله داره اما در حقیقت شیشه رنگی قبل از تمدن مدرن وجود داشته
+                است.
+                اولین استفاده کنندگان از این شیشه های رنگی مصریان و مردم بین النهرین بودند.
+                که از این شیشه ها در بشقاب ها و کاسه ها برای تزیین استفاده می کردند.
+                یک هزار سال بعد ، رومیان و کشورهای خاور میانه نیز از این شیشه ها در پنجره کلیساها و مساجد استفاده کردند
+                که بیشتر جنبه تزیینی داشت.
+                قبل از جنگ جهانی دوم
+                ساخت اتومبیل شروع شد و بعد از جنگ استفاده از اتومبیل به عنوان وسیله جابجایی بین مردم متداول شد
+                هرچه بیشتر پیش رفت، مردم به این مسئله پی بردند که نور خورشید که از شیشه به داخل کابین نفوذ می کند ، آزار
+                دهنده است.
+                E.Z EYE یکی از بنیانگزاران صنعت شیشه دودی در آمریکاست.
+                وی اولین برچسب شیشه دودی را روی یک تعداد کمی از مدل اتومبیل ها مثل Cheverlot Impale نصب کرد.
+                در ابتدا به دلیل اینکه برچسب شیشه دودی فقط در اختیار کمپانی های اتومبیل سازی قرار داشت ، مردم عادی توان
+                خرید این محصول را نداشتند و به ناچار
+                از اسپری شیشه دودی و یا از برچسب های بی کیفیت تر استفاده می کردند.
+                این جایگزین ها بعضا آنها را دچار مشکل هم می کرد تا جایی که اسپری ها روی شیشه پخش می شدند و همچنین برچسب
+                های نامرغوب کارایی لازم را نداشتند.
+                در اواسط دهه 60 میلادی ، 3M به عنوان بهترین کارخانه برچسب شناخته می شد .
+                برچسب های تولیدی به دلیل وجود پلی استر قابلیت انعطاف پذیری داشتند که مانع از ورود نور مستقیم خورشید می
+                شدند.
+                3 سال بعد یک حمله تروریستی در اروپا اتفاق افتاد و وجود برچسب ها باعث شد که تکه های خرد شده شیشه در جای
+                خود ثابت بمانند.
+                این ویژگی یکی از مهم ترین ویژگی هایی ست که امروزه نیز باعث علاقه مصرف کنندگان به نصب این برچسب هاست.
+                در دهه70 میلادی به دلیل بحران انرژی صنعت ساخت و نصب برچسب رونق بیشتری گرفت تا جاییکه در لیموزین های جدید
+                از این نوع برچسب به جهت
+                ایجاد حریم خصوصی استفاده شد.
+                در اواخر دهه 70 و اوایل دهه 80 میلادی مردم شروع به استفاده از برچسب با تیرگی زیاد کردند که این امر باعث
+                بروز تصادفات در رانندگی می شد ،
+                به همین دلیل در ایالت های آمریکا قوانینی در این باره وضع شد.
+                برچسب های دودی متالیک شاید خاصیت جلوگیری از ورود <a href="https://en.wikipedia.org/wiki/Ultraviolet"
+                    target="_blank" id="uv">UV</a> و همچنین حرارت را داشته باشد ولی ، باعث اختلال در امواج رادیویی می
+                شود
+                که به همین دلیل برچسب های نوظهوری به عرصه آمد که برچسب های نانو سرامیک نام گرفت و امروزه علاوه براینکه
+                باعث جلوگیری از ورود اشعه های مضر و حرارت
+                زیاد به داخل کابین می شوند ، همچنین اختلالی در کارایی وسایل الکترونیکی هم ایجاد نمی کند.
+            </p>
+        </div>
+        <!--div is OK-->
+        <div class="innerdata">
+            <div class="rule-of-tint">
+                <figure>
+                    <img src="pic\shades-of-tint.jpg" id="shadegrade" alt="درصد تیرگی"
+                        title="درجه بندی تیرگی فیلم دودی" />
+                    <br />
+                    <figcaption class="shadegradepiccap">
+                        <strong>
+                            در تصویر بالا درصد های مختلفی از فیلم دودی نشان داده شده که بیانگر
+                            مقدار عبور نور می باشد .
+                        </strong>
+                    </figcaption>
+                </figure>
+                <div id="wichcode-calculate">
+                    <p id="select-code">درصد مورد نظرتو بنویس ببین مجاز هست یا نه؟ </p>
+                    <div class="wichcode-change">
+                        <input id="code-input" type="number" placeholder="0-100" />
+                        <input id="code-button" type="button" value="تائید" onclick="changecode();" />
+                    </div>
+                    <p id="pcode"><!--this is a place for writting 
+                        the change code and eligable code-->
+                    </p>
+                </div>
+                <div class="which-percent-all">
+                    <h2 class="h2">چه درصدی از دودی مجاز است؟</h2>
+                    <p id="which-percent">
+                        <strong>
+                            پاسخ این سوال بستگی به شرایطی دارد از قبیل :
+                        </strong>
+                    </p>
+                    <div class="whichcode">
+                        <div> <a href="#"> محل زندگی</a></div>
+                        <div><a href="#">قوانین منطقه</a></div>
+                        <div><a href="#">آب و هوا و درجه حرارت</a></div>
+                    </div>
+                </div>
+                <div class="percentoftint">
+                </div>
+            </div>
+            <div class="whytint">
+                <img src="pic/خورشید-1-620x491-1.jpg" id="liketintpic" alt="4" />
+                <div id="ulwhytint">
+                    <h2 class="h2">چرا افراد تمایل به نصب برچسب شیشه دودی دارند؟</h2>
+                    <ul>
+                        <li>به دلایل شخصی و امنیتی</li>
+                        <li>در امان بودن از اشعه مضر و بیماری زا <a href="https://en.wikipedia.org/wiki/Ultraviolet"
+                                target="_blank" id="uv">UV</a></li>
+                        <li>کاهش دما در داخل کابین اتومبیل</li>
+                        <li>کاهش مصرف سوخت</li>
+                        <li>جلوگیری از پاشش شیشه های خرد شده در تصادف احتمالی</li>
+                    </ul>
+                </div>
+            </div>
+            <!--till here is OK-->
+            <div class="tintsteps">
+                <div class="pic-step">
+                    <button onclick="rightpic()">
+                        <i class="fa-solid fa-circle-chevron-right" id="leftpic-chevron"></i>
+                    </button>
+                    <div id="img-step">
+                        <img src="pic\step1.jpg" id="tintPicStep" class="tintsteppic" alt="مراحل نصب شیشه دودی">
+                    </div>
+                    <button onclick="leftpic()">
+                        <i class="fa-solid fa-circle-chevron-left" id="rightpic-chevron"></i>
+                    </button>
+                </div>
+                <div class="radio-pic-step">
+                    <input type="radio" id="radio-pic1">
+                    <input type="radio" id="radio-pic2">
+                    <input type="radio" id="radio-pic3">
+                    <input type="radio" id="radio-pic4">
+                    <input type="radio" id="radio-pic5">
+                </div>
+                <script>
+                 function rightpic(){
+                   var changeImage = document.createElement("img");
+                   img.src = "C:\Users\jaber\Desktop\spotless\pic\step2.jpg";
+                   
+                 }
+
+                </script>
+                <h2 class="h2">مراحل نصب برچسب :</h2>
+                <ol>
+                    <li>تمیز کردن دو طرف شیشه</li>
+                    <li>الگو گرفتن برچسب روی شیشه</li>
+                    <li>جداکردن لایه محافظ برچسب از برچسب</li>
+                    <li>خیس کردن کامل برچسب و شیشه (از داخل)</li>
+                    <li>گذاشتن برچسب روی شیشه و تنظیم آن</li>
+                    <li>خارج کردن کامل آب از زیر برچسب بوسیله ابزار و کاردک مخصوص آن</li>
+                </ol>
+            </div>
+        </div>
+    </article>
+    <footer>
+        <div class="footer">
+            <div id="qualityservice">
+                <img src="C:\Users\jaber\Desktop\spotless\pic\arm4.png" id="footerpic">
+                <p>نصب انواع برچسب های شیشه دودی در رنگ های مختلف</p>
+                <p>با <span id="two">2</span> سال ضمانت خدمات</p>
+                <p>17 سال سابقه نصب انواع برچسب</p>
+                <p id="sellfooter">نقد و اقساط</p>
+            </div>
+            <div id="service">
+                <h6>خدمات :</h6>
+                <b>
+                    <p>نصب برچسب شیشه دودی</p>
+                    <p>نصب انواع استیکر</p>
+                    <p>طراحی و برش برچسب</p>
+                    <p>شفاف سازی چراغ</p>
+                    <p>نصب سلفون چراغ در رنگ های مختلف</p>
+            </div>
+            <div id="aboutus">
+                <div>
+                    <h6>ارتباط باما :</h6>
+                    <b>
+                        <p class="phonefooter">+98 31 3722 4288</p>
+                        <p class="phonefooter">+98 31 3722 3175</p>
+                        <p id="mailfooter">jahan_nama7777@gmail.com</p>
+                        <p id="instagramfooter">@Spotless_window_film</p>
+                        <p id="telegramfooter">t.me/jahannama7777</p>
+                    </b>
+
+                    <h6>آدرس کارگاه:</h6>
+                    <p id="addressfooter">اصفهان _ پیربکران _ خیابان بهشتی _ روبروی مجتمع سپاهان </p>
+                </div>
+                <div>
+
+                </div>
+                <div>
+                    <div id="give500" onclick="off()">
+                        <p id="give500-p1">جایزه </p>
+                        <p id="give500-p2">بردار</p>
+                        <p id="give500-p3">عجله</p>
+                        <p id="give500-p4">کن!</p>
+
+                    </div>
+                    <a href="جایزه.html">
+                        <img id="pic-price" src="pic\عابر بانک.jpg" alt="جایزه بگیر" title="جایزه بگیر">
+
+                    </a>
+
+                </div>
+                <div>
+                    <div id="iconnect">
+                        <a href="http://api.whatsapp.com/send? phone=+989137981780&text"><i
+                                class="fa-brands fa-whatsapp" id="iwhatsapp"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram" id="iinstagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-telegram" id="itelegram"></i></a>
+                        <a href="tell:+989137981780"><i class="fa-solid fa-phone" id="iphone"></i></a>
+                        <a href="mailto: jahannama7777@gmail.com"><i class="fa-solid fa-envelope" id="iemail"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+    </footer>
+</body>
+<script src="spotless.js"></script>
+
+</html>
